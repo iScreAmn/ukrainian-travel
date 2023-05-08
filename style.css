@@ -88,5 +88,38 @@ body {
 
 /* INTRO */
 
+.intro {
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 92px auto;
+}
 
+.intro__title {
+    color: #fff;
+    max-width: 690px;
+    font-size: 54px;
+    line-height: 58px;
+    font-weight: 900;
+}
+
+.intro__subtitle {
+    color: #fff;
+    max-width: 690px;
+    font-size: 16px;
+    line-height: 26.08px;
+    font-weight: 400;
+}
+
+.intro__stats {
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.intro__stats-line {}
+
+/* PHOTO GRID */
 
