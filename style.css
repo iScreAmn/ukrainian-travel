@@ -1,0 +1,21 @@
+body {
+    background-color: #2a2c2f;
+}
+
+.page {
+    max-width: 1184px;
+    margin: 0 auto;
+    
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.header__link {
+    color: #fff;
+    text-decoration: none;
+}
