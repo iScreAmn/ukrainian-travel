@@ -123,3 +123,14 @@ body {
 
 /* PHOTO GRID */
 
+.photo-grid {
+    max-width: 1184px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
+    margin: 0 auto 92px;
+    /* box-sizing: border-box; */
+    /* justify-content: center */
+    
+}
