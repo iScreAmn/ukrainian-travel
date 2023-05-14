@@ -7,3 +7,9 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: calc(1280px - ((1280px - 1024px) / 2))) {
+    .header {
+      margin: 28px 48px;
+    }
+  }
