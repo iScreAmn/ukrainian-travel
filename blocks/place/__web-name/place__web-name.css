@@ -1,0 +1,9 @@
+.place__web-name {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #aaaaaa;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }

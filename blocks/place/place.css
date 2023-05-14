@@ -1,0 +1,10 @@
+.place {
+    display: grid;
+    grid-template: minmax(min-content, max-content) minmax(min-content, max-content) / minmax(340px, 460px) minmax(352px, 484px);
+    gap: 48px 40px;
+    margin: 0 0 80px 0;
+    padding: 0;
+  }
+.place:last-child {
+    margin: 0;
+  }
