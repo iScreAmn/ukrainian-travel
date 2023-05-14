@@ -5,5 +5,14 @@
     line-height: 100px;
     color: #fff;
     text-align: center;
-    margin: 56px auto 32px;
+    margin: 0 auto 32px;
 }
+
+@media screen and (max-width: 700px) {
+    .lead__title {
+      margin: 0 auto 16px;
+      max-width: 288px;
+      font-size: 40px;
+      line-height: 44px;
+    }
+  }

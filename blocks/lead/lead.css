@@ -2,3 +2,22 @@
     max-width: 984px;
     margin: 0 auto 92px;
 }
+
+@media screen and (max-width: 1250px) {
+    .lead {
+      max-width: 928px;
+    }
+  }
+
+  @media screen and (max-width: 950px) {
+    .lead {
+      max-width: 100%;
+      margin: 0 auto 88px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .lead {
+      margin: 0 auto 64px;
+    }
+  }
