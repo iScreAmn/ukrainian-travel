@@ -5,3 +5,23 @@
     justify-content: flex-start;
     margin: 92px auto;
 }
+
+@media screen and (max-width: 1250px) {
+    .intro {
+      max-width: 928px;
+    }
+  }
+
+  @media screen and (max-width: 950px) {
+    .intro {
+      max-width: 720px;
+      margin: 0 24px 88px 24px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .intro {
+      max-width: 288px;
+      margin: 0 16px 64px 16px;
+    }
+  }
