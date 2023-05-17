@@ -2,3 +2,21 @@
     max-width: 984px;
     margin: 0 auto 92px;
 }
+
+@media screen and (max-width: 1250px) {
+    .places {
+      max-width: 928px;
+    }
+  }
+@media screen and (max-width: 950px) {
+    .places {
+      max-width: 720px;
+      margin: 0 auto 90px;
+    }
+  }
+@media screen and (max-width: 767px) {
+    .places {
+      max-width: 100%;
+      margin: 0 0 66px 0;
+    }
+  }
