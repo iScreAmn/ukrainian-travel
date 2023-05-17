@@ -1,3 +1,9 @@
 .place__web {
     align-self: end;
   }
+
+  @media screen and (max-width: 767px) {
+    .place__web {
+      margin: 0 16px 0 16px;
+    }
+  }
