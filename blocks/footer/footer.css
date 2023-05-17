@@ -5,3 +5,24 @@
     max-width: 1184px;
     align-items: center;
 }
+
+@media screen and (max-width: 1215px) {
+    .footer {
+      margin: 0 48px 24px 48px;
+    }
+  }
+
+@media screen and (max-width: 950px) {
+    .footer {
+      margin: 0 24px 24px 24px;
+    }
+  }
+
+@media screen and (max-width: 760px) {
+    .footer {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 48px;
+      margin: 0 16px 24px 16px;
+    }
+  }
