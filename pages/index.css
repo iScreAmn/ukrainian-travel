@@ -1,14 +1,14 @@
 /* OTHER */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 
 /* HEADER */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__link/_active/header__link_active.css);
 
 /* LEAD */
