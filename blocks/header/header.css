@@ -1,8 +1,8 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 28px 48px 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 28px 48px 56px;
 }
 
 @media screen and (max-width: calc(1280px - ((1280px - 1024px) / 2))) {
