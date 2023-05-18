@@ -1,4 +1,12 @@
 .place__web-link {
-    text-decoration: underline;
-    color: #fff;
-  }
+  color: #fff;
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 22px;
+  transition: 0.4s ease-in-out;
+}
+
+.place__web-link:hover {
+  opacity: 0.7;
+}
+
