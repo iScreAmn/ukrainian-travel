@@ -1,6 +1,6 @@
 ## Проектная работа «Путешествие по России»
 
-iscreamn.github.io/russian-travel/
+(iscreamn.github.io/russian-travel/)
 Проектная работа курса [«Веб‑разработчик»](https://practicum.yandex.ru/web/ "Курс «Веб‑разработчик» — Яндекс Практикум")
 
 ## Описание
