@@ -1,10 +1,10 @@
 .cover {
   max-width: 1184px;  
-  margin: 0 auto;
   width: 100%;
   background-image: url(../../images/cover.png);
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 850px) {
