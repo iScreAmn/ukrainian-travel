@@ -7,3 +7,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 950px) {
+  .intro__stats {
+    max-width: 720px;
+    margin: 33px 0;
+  }
+}
