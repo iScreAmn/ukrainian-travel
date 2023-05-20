@@ -1,6 +1,9 @@
 .place__web {
-    align-self: end;
-  }
+  align-self: end;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
 
   @media screen and (max-width: 767px) {
     .place__web {
