@@ -16,6 +16,5 @@
   @media screen and (max-width: 375px) {
     .intro__subtitle {
       max-width: 288px;
-      margin: 0 0 34px;
     }
   }
