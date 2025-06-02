@@ -1,136 +1,177 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
-    <script src="./script.js" defer></script>
-    <title>Подорож Україною</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <script src="./script.js" defer></script>
+  <title>Подорож Україною</title>
 </head>
+
 <body class="body">
-    <div class="page">
-      <header class="header">
-          <img class="header__logo" src="./images/slavaUkraine.webp" alt="Логотип">
-          <ul class="header__links">
-            <li><a class="header__link header__link_active" href="#">Ua</a></li>
-            <li><a class="header__link" href="#">En</a></li>
-          </ul>
-      </header>
-      <main>
-        <section class="lead">
-          <h1 class="lead__title">Подорож Україною</h1>
-          <p class="lead__subtitle">Справжня Україна — не в телевізорі, а поруч із нами.</p>
-          <div class="lead__container">
-            <img class="lead__img" src="./images/UkraineMap.webp" alt="Карта">
-            <p class="lead__caption">ваша полиця — верхня</p>
+  <div class="page">
+    <header class="header">
+      <img class="header__logo" src="./images/slavaUkraine.webp" alt="Логотип">
+      <ul class="header__links">
+        <li><a class="header__link header__link_active" href="#">Ua</a></li>
+        <li><a class="header__link" href="#">En</a></li>
+      </ul>
+    </header>
+    <main>
+      <section class="lead">
+        <h1 class="lead__title">Подорож Україною</h1>
+        <p class="lead__subtitle">Справжня Україна — не в телевізорі, а поруч із нами.</p>
+        <div class="lead__container">
+          <img class="lead__img" src="./images/UkraineMap.webp" alt="Карта">
+          <p class="lead__caption">ваша полиця — верхня</p>
+        </div>
+      </section>
+      <section class="intro">
+        <h2 class="intro__title">Чого ми там не бачили?</h2>
+        <p class="intro__subtitle">За даними опитувань, 95% українців мріють кудись поїхати, але лише 36% планують
+          провести відпустку в рідній країні. Мовляв, чого ми тут, вдома, не бачили? Насправді, Україна — це цілий
+          всесвіт із ласкавим морем півдня, густими лісами Карпат та бескічними степами. До того ж, усі ці краєвиди
+          можна побачити без мільйонів на рахунку, закордонного паспорта та багатогодинних перельотів. Як, наприклад,
+          Віра Янковська — смілива молода мама, яка взяла в обійми трьох дітей, посадила їх у свою машину й проїхала
+          сотні кілометрів рідною країною. Ми обрали й описали кілька цікавих місць, гідних вашої відпустки.</p>
+        <ul class="intro__stats">
+          <li><span class="intro__stats-line">Об'єктів природної спадщини ЮНЕСКО</span> 12</li>
+          <li><span class="intro__stats-line">Об'єктів культурної спадщини ЮНЕСКО</span> 16</li>
+          <li><span class="intro__stats-line">Природних заповідників</span>15</li>
+          <li><span class="intro__stats-line">Аеропортів</span> 11</li>
+        </ul>
+      </section>
+      <section class="photo-grid">
+        <img class="photo-grid__item" src="./images/grid/item-1.jpg" alt="Окно в поезде">
+        <img class="photo-grid__item" src="./images/grid/item-2.jpg" alt="Горы">
+        <img class="photo-grid__item" src="./images/grid/item-3.jpg" alt="Собака">
+        <img class="photo-grid__item" src="./images/grid/item-4.jpg" alt="Туманный лес">
+        <img class="photo-grid__item" src="./images/grid/item-5.jpg" alt="Автомобиль на льду">
+        <img class="photo-grid__item" src="./images/grid/item-6.jpg" alt="Море и горы">
+        <img class="photo-grid__item" src="./images/grid/item-7.jpg" alt="Горы">
+        <img class="photo-grid__item" src="./images/grid/item-8.jpg" alt="Переход">
+        <img class="photo-grid__item" src="./images/grid/item-9.jpg" alt="Красота">
+        <img class="photo-grid__item" src="./images/grid/item-10.jpg" alt="Карпаты">
+        <img class="photo-grid__item" src="./images/grid/item-11.jpg" alt="Крым">
+        <img class="photo-grid__item" src="./images/grid/item-12.jpg" alt="Горы в тумане">
+      </section>
+      <section class="places">
+        <article class="place">
+          <h2 class="place__title">Крим</h2>
+          <div class="place__web">
+            <p class="place__web-name">url</p>
+            <a class="place__web-link" href="https://krtech.ru/" target="_blank">krtech.ru</a>
           </div>
-        </section>
-        <section class="intro">
-          <h2 class="intro__title">Чого ми там не бачили?</h2>
-          <p class="intro__subtitle">За даними опитувань, 95% українців мріють кудись поїхати, але лише 36% планують провести відпустку в рідній країні. Мовляв, чого ми тут, вдома, не бачили? Насправді, Україна — це цілий всесвіт із ласкавим морем півдня, густими лісами Карпат та бескічними степами. До того ж, усі ці краєвиди можна побачити без мільйонів на рахунку, закордонного паспорта та багатогодинних перельотів. Як, наприклад, Віра Янковська — смілива молода мама, яка взяла в обійми трьох дітей, посадила їх у свою машину й проїхала сотні кілометрів рідною країною. Ми обрали й описали кілька цікавих місць, гідних вашої відпустки.</p>
-          <ul class="intro__stats">
-            <li><span class="intro__stats-line">Об'єктів природної спадщини ЮНЕСКО</span> 12</li>
-            <li><span class="intro__stats-line">Об'єктів культурної спадщини ЮНЕСКО</span> 16</li>
-            <li><span class="intro__stats-line">Природних заповідників</span>15</li>
-            <li><span class="intro__stats-line">Аеропортів</span> 11</li>
+          <img class="place__image" src="./images/places/kurskaia.png" alt="Куршская коса">
+          <div class="place__description">
+            <p class="place__paragraph">Тут, між гірськими хребтами та лазуровим узбережжям, ви побачите два стихії —
+              суворі скелі Кримських гір з одного боку та ніжне дихання Чорного моря з іншого. Унікальний край на
+              перетині культур та цивілізацій.</p>
+            <p class="place__paragraph">Але Крим — це не лише пейзажі. Для мандрівника тут поруч — найзахідніша точка
+              півострова, мис Тарханкут, — і сліди генуезьких фортець, османських мечетей та царських палаців. Атмосфера
+              цих земель розповідає історії віків, змішуючи аромат степових трав із легким бризом теплого моря.</p>
+          </div>
+        </article>
+        <article class="place">
+          <h2 class="place__title">Карпати</h2>
+          <div class="place__web">
+            <p class="place__web-name">url</p>
+            <a class="place__web-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+              target="_blank">National Geographic</a>
+          </div>
+          <img class="place__image" src="./images/places/kolski.png" alt="Куршская коса">
+          <div class="place__description">
+            <p class="place__paragraph">Тут, серед древніх гір та ялинових лісів, ви опинитесь у світі, де високогірні
+              полонини зустрічаються з густими буковими пралісами. Карпати — край, де час пливе повільно, а природа живе
+              за своїми законами.</p>
+            <p class="place__paragraph">Можливо, ви чули про Говерлу або дивились «Тіні забутих предків». Можливо, слово
+              «Чорногора» не загубилось у ваших спогадах зі шкільних уроків географії. Можливо, вас не цікавили
+              карпатські гуцули з їхніми дерев’яними церквами, а від дзвону трембіт вас давно клонить у дрім. Але ваше
+              бажання відчути справжню тишу гір починає збуватися з квитком у Ворохту.</p>
+          </div>
+        </article>
+        <article class="place">
+          <h2 class="place__title">Каневський</h2>
+          <div class="place__web">
+            <p class="place__web-name">url</p>
+            <a class="place__web-link" href="https://youtu.be/yVvt03uBfrg?si=bsN-clxgqdp1Ohih"
+              target="_blank">YouTube</a>
+          </div>
+          <img class="place__image" src="./images/places/altai.png" alt="Куршская коса">
+          <div class="place__description">
+            <p class="place__paragraph">Каневський — одне з наймальовничіших місць України. Насамперед — через природу:
+              якщо їхати вздовж Дніпра, побачите розлогий ліс, кручі, вкриті травами, та безкраї лани. А якщо зупинитесь
+              на пагорбі — відчуєте невидиме диво цих місць: спокій, що розливається над водою.</p>
+            <p class="place__paragraph">Клімат тут помірний, тому найкращий час для подорожі — весна чи рання осінь.
+              Тоді можна побачити все багатство краю: у лісах Каневського водяться олені, у степах біля Чорного лісу
+              гніздяться орли, а на заплавних луках пасуться дикі коні. І навіть легендарні чорні лелеки — тепер частина
+              цієї землі.</p>
+          </div>
+        </article>
+        <article class="place">
+          <h2 class="place__title">Зимовий Ялпуг</h2>
+          <div class="place__web">
+            <p class="place__web-name">url</p>
+            <a class="place__web-link" href="https://doba.ua/" target="_blank">https://doba.ua/</a>
+          </div>
+          <img class="place__image" src="./images/places/baikal.png" alt="Куршская коса">
+          <div class="place__description">
+            <p class="place__paragraph">Ялпуг — одне з наймальовничіших озер України. Багато хто знає його як найдовше
+              природне озеро країни, а ще — як місце, де вода настільки прозора, що влітку можна розгледіти дно на
+              глибині.</p>
+            <p class="place__paragraph">Звичайно, це все правда. Але Ялпуг ще й ідеальне місце для змагань з
+              віндсерфінгу. Коли вітер наповнює вітрило, а дошка зі свистом розтинає водну гладь, здається, ніби летиш
+              над самою поверхнею. У 2021 році під час фестивалю «Ялпузькі вітрила» тут встановили рекорд швидкості
+              серед любителів — понад 60 км/год. І це не межа!</p>
+          </div>
+        </article>
+        <article class="place">
+          <h2 class="place__title">Український ліс</h2>
+          <div class="place__web">
+            <p class="place__web-name">url</p>
+            <a class="place__web-link" href="http://pravda.com.ua" target="_blank">http://pravda.com.ua</a>
+          </div>
+          <img class="place__image" src="./images/places/karelia.png" alt="Куршская коса">
+          <div class="place__description">
+            <p class="place__paragraph">Український ліс починається не на Поліссі, а в Карпатах: прадавні букові праліси
+              ЮНЕСКО не зустрічаються східніше Рахівщини. Та тут вони сягають 50 метрів — карпатські заповідники через
+              недоступні схили ніколи не знали пилки. Окремі ялиці пам'ятають часи Володимира Великого. Обійміть дерево,
+              що бачило світло раніше за першу згадку про Київ. У нетрі на сотню верст не знайдеш стежки. А на рідкісних
+              галявинах смереки на висоті зросту відмічені ведмежими кігтями. Щоб ніхто не сумнівався, хто тут панує.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="cover">
+        <a class="cover__container" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+          <h2 class="cover__title">До Одесси <br> «на собаках»</h2>
+          <p class="cover__subtitle">Натхненний навчальною темою про УкрЗалізницю – подорож із столиці до Одеси на
+            електричках.</p>
+        </a>
+      </section>
+      <footer class="footer">
+        <nav>
+          <ul class="footer__links">
+            <li><a class="footer__link" href="https://yandex.ru/maps" target="blank">Мапи</a></li>
+            <li><a class="footer__link" href="https://yandex.ru/pogoda" target="blank">Погода</a></li>
+            <li><a class="footer__link" href="https://rasp.yandex.ru" target="blank">Розклад</a></li>
+            <li><a class="footer__link" href="https://calendar.yandex.ru" target="blank">Календар</a></li>
+            <li><a class="footer__link" href="https://travel.yandex.ru" target="blank">Подорожі</a></li>
           </ul>
-        </section>
-        <section class="photo-grid">
-          <img class="photo-grid__item" src="./images/grid/item-1.jpg" alt="Окно в поезде">
-          <img class="photo-grid__item" src="./images/grid/item-2.jpg" alt="Горы">
-          <img class="photo-grid__item" src="./images/grid/item-3.jpg" alt="Собака">
-          <img class="photo-grid__item" src="./images/grid/item-4.jpg" alt="Туманный лес">
-          <img class="photo-grid__item" src="./images/grid/item-5.jpg" alt="Автомобиль на льду">
-          <img class="photo-grid__item" src="./images/grid/item-6.jpg" alt="Море и горы">
-          <img class="photo-grid__item" src="./images/grid/item-7.jpg" alt="Горы">
-          <img class="photo-grid__item" src="./images/grid/item-8.jpg" alt="Переход">
-          <img class="photo-grid__item" src="./images/grid/item-9.jpg" alt="Красота">
-          <img class="photo-grid__item" src="./images/grid/item-10.jpg" alt="Карпаты">
-          <img class="photo-grid__item" src="./images/grid/item-11.jpg" alt="Крым">
-          <img class="photo-grid__item" src="./images/grid/item-12.jpg" alt="Горы в тумане">
-        </section>
-        <section class="places">
-          <article class="place">
-            <h2 class="place__title">Крим</h2>
-            <div class="place__web">
-              <p class="place__web-name">url</p>
-              <a class="place__web-link" href="https://krtech.ru/" target="_blank">krtech.ru</a>
-            </div>
-            <img class="place__image" src="./images/places/kurskaia.png" alt="Куршская коса">
-            <div class="place__description">
-              <p class="place__paragraph">Тут, між гірськими хребтами та лазуровим узбережжям, ви побачите два стихії — суворі скелі Кримських гір з одного боку та ніжне дихання Чорного моря з іншого. Унікальний край на перетині культур та цивілізацій.</p>
-              <p class="place__paragraph">Але Крим — це не лише пейзажі. Для мандрівника тут поруч — найзахідніша точка півострова, мис Тарханкут, — і сліди генуезьких фортець, османських мечетей та царських палаців. Атмосфера цих земель розповідає історії віків, змішуючи аромат степових трав із легким бризом теплого моря.</p>
-            </div>
-          </article>
-          <article class="place">
-            <h2 class="place__title">Карпати</h2>
-            <div class="place__web">
-              <p class="place__web-name">url</p>
-              <a class="place__web-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
-            </div>
-            <img class="place__image" src="./images/places/kolski.png" alt="Куршская коса">
-            <div class="place__description">
-              <p class="place__paragraph">Тут, серед древніх гір та ялинових лісів, ви опинитесь у світі, де високогірні полонини зустрічаються з густими буковими пралісами. Карпати — край, де час пливе повільно, а природа живе за своїми законами.</p>
-              <p class="place__paragraph">Можливо, ви чули про Говерлу або дивились «Тіні забутих предків». Можливо, слово «Чорногора» не загубилось у ваших спогадах зі шкільних уроків географії. Можливо, вас не цікавили карпатські гуцули з їхніми дерев’яними церквами, а від дзвону трембіт вас давно клонить у дрім. Але ваше бажання відчути справжню тишу гір починає збуватися з квитком у Ворохту.</p>
-            </div>
-          </article>  
-          <article class="place">
-            <h2 class="place__title">Каневський</h2>
-            <div class="place__web">
-              <p class="place__web-name">url</p>
-              <a class="place__web-link" href="https://youtu.be/yVvt03uBfrg?si=bsN-clxgqdp1Ohih" target="_blank">YouTube</a>
-            </div>
-            <img class="place__image" src="./images/places/altai.png" alt="Куршская коса">
-            <div class="place__description">
-              <p class="place__paragraph">Каневський — одне з наймальовничіших місць України. Насамперед — через природу: якщо їхати вздовж Дніпра, побачите розлогий ліс, кручі, вкриті травами, та безкраї лани. А якщо зупинитесь на пагорбі — відчуєте невидиме диво цих місць: спокій, що розливається над водою.</p>
-              <p class="place__paragraph">Клімат тут помірний, тому найкращий час для подорожі — весна чи рання осінь. Тоді можна побачити все багатство краю: у лісах Каневського водяться олені, у степах біля Чорного лісу гніздяться орли, а на заплавних луках пасуться дикі коні. І навіть легендарні чорні лелеки — тепер частина цієї землі.</p>
-            </div>
-          </article>
-          <article class="place">
-            <h2 class="place__title">Зимовий Ялпуг</h2>
-            <div class="place__web">
-              <p class="place__web-name">url</p>
-              <a class="place__web-link" href="https://doba.ua/" target="_blank">https://doba.ua/</a>
-            </div>
-            <img class="place__image" src="./images/places/baikal.png" alt="Куршская коса">
-            <div class="place__description">
-              <p class="place__paragraph">Ялпуг — одне з наймальовничіших озер України. Багато хто знає його як найдовше природне озеро країни, а ще — як місце, де вода настільки прозора, що влітку можна розгледіти дно на глибині.</p>
-              <p class="place__paragraph">Звичайно, це все правда. Але Ялпуг ще й ідеальне місце для змагань з віндсерфінгу. Коли вітер наповнює вітрило, а дошка зі свистом розтинає водну гладь, здається, ніби летиш над самою поверхнею. У 2021 році під час фестивалю «Ялпузькі вітрила» тут встановили рекорд швидкості серед любителів — понад 60 км/год. І це не межа!</p>
-            </div>
-          </article>
-          <article class="place">
-            <h2 class="place__title">Український ліс</h2>
-            <div class="place__web">
-              <p class="place__web-name">url</p>
-              <a class="place__web-link" href="http://pravda.com.ua" target="_blank">http://pravda.com.ua</a>
-            </div>
-            <img class="place__image" src="./images/places/karelia.png" alt="Куршская коса">
-            <div class="place__description">
-              <p class="place__paragraph">Український ліс починається не на Поліссі, а в Карпатах: прадавні букові праліси ЮНЕСКО не зустрічаються східніше Рахівщини. Та тут вони сягають 50 метрів — карпатські заповідники через недоступні схили ніколи не знали пилки. Окремі ялиці пам'ятають часи Володимира Великого. Обійміть дерево, що бачило світло раніше за першу згадку про Київ. У нетрі на сотню верст не знайдеш стежки. А на рідкісних галявинах смереки на висоті зросту відмічені ведмежими кігтями. Щоб ніхто не сумнівався, хто тут панує.</p>
-            </div>
-          </article>
-        </section>
-        <section class="cover">
-          <a class="cover__container" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-            <h2 class="cover__title">До Одесси <br> «на собаках»</h2>
-            <p class="cover__subtitle">Натхненний навчальною темою про УкрЗалізницю – подорож із столиці до Одеси на електричках.</p>
-          </a>
-        </section>
-        <footer class="footer">
-          <nav>
-            <ul class="footer__links">
-              <li><a class="footer__link" href="https://yandex.ru/maps" target="blank">Мапи</a></li>
-              <li><a class="footer__link" href="https://yandex.ru/pogoda" target="blank">Погода</a></li>
-              <li><a class="footer__link" href="https://rasp.yandex.ru" target="blank">Розклад</a></li>
-              <li><a class="footer__link" href="https://calendar.yandex.ru" target="blank">Календар</a></li>
-              <li><a class="footer__link" href="https://travel.yandex.ru" target="blank">Подорожі</a></li>
-            </ul>
-          </nav>
-          <p class="footer__copyright">© 2023. Dimitri Jmukhadze</p>
-        </footer>
-      </main>
-    </div>
-    <button id="scrollToTopBtn" title="Наверх">↑</button>
+        </nav>
+        <p class="footer__copyright">© 2023. Dimitri Jmukhadze</p>
+      </footer>
+    </main>
+  </div>
+  <button id="scrollToTopBtn" title="Наверх">↑</button>
+  <div id="modal" class="modal">
+    <span class="modal__close">&times;</span>
+    <img class="modal__content" id="modalImage" alt="Полное изображение">
+    <button id="modalPrev" class="modal__prev">‹</button>
+    <button id="modalNext" class="modal__next">›</button>
+  </div>
 </body>
+
 </html>
