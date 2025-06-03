@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <script src="./script.js" defer></script>
+  <script src="./script.js" defer ></script>
+  <script src="https://kit.fontawesome.com/b39a9b523b.js" crossorigin="anonymous" defer ></script>
   <title>Подорож Україною</title>
 </head>
 
@@ -21,8 +22,8 @@
     </header>
     <main>
       <section class="lead">
-        <h1 class="lead__title">Подорож Україною</h1>
-        <p class="lead__subtitle">Справжня Україна — не в телевізорі, а поруч із нами.</p>
+        <h1 class="lead__title">Подорож <span>Україною</span></h1>
+        <p class="lead__subtitle">Справжня Україна — не в телевізорі, а поруч із нами <i id="scrollToPlaces" class="fa-solid fa-arrow-down fa-bounce"></i></p>
         <div class="lead__container">
           <img class="lead__img" src="./images/UkraineMap.webp" alt="Карта">
           <p class="lead__caption">ваша полиця — верхня</p>
@@ -57,7 +58,7 @@
         <img class="photo-grid__item" src="./images/grid/item-11.jpg" alt="Крым">
         <img class="photo-grid__item" src="./images/grid/item-12.jpg" alt="Горы в тумане">
       </section>
-      <section class="places">
+      <section id="places" class="places">
         <article class="place">
           <h2 class="place__title">Крим</h2>
           <div class="place__web">
