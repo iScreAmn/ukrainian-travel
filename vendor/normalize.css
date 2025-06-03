@@ -347,3 +347,16 @@ template {
 [hidden] {
   display: none;
 }
+
+
+/* Для большинства браузеров */
+::selection {
+  background-color: #FFD700;  
+  color: #2e68e5;
+}
+
+/* Для Firefox */
+::-moz-selection {
+  background-color: #FFD700;
+  color: #000;
+}
