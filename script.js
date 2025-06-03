@@ -16,6 +16,18 @@ scrollToTopBtn.addEventListener("click", () => {
   });
 });
 
+// Smooth Scrolling
+document.addEventListener('DOMContentLoaded', () => {
+  const scrollBtn = document.getElementById('scrollToPlaces');
+  const targetSection = document.querySelector('.places');
+
+  if (scrollBtn && targetSection) {
+    scrollBtn.addEventListener('click', () => {
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+});
+
 // Modal Window
 document.addEventListener("DOMContentLoaded", function () {
   const modal = document.getElementById("modal");
